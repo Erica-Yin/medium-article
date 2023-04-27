@@ -1,0 +1,83 @@
+body {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: lighter;
+  color: #494949;
+}
+
+.banner {
+  background-image: url(https://images.unsplash.com/photo-1561037404-61cd46aa615b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80);
+  background-size: cover;
+  color: goldenrod;
+  padding: 220px 0;
+}
+
+.container {
+  width: 800px;
+  margin: 50px auto;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+h2 {
+  font-family:'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+a {
+  background-color: #eccdae;
+  text-decoration: none;
+  color: #636363;
+  font-size: 25px;
+  font-family: 'Lora', serif;
+  font-style: italic;
+}
+
+a:hover {
+  background-color: #e5851ee4;
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 850px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 450px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
